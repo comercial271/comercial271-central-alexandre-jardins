@@ -11,8 +11,8 @@ import Arsenal from './components/Arsenal'
 import LinksRapidos from './components/LinksRapidos'
 import Alvos from './components/Alvos'
 import AbordagemComercial from './components/AbordagemComercial'
-import InstagramBraun from './components/InstagramBraun'
-import IcpBraun from './components/IcpBraun'
+import InstagramAlexandre from './components/InstagramBraun'
+import IcpAlexandre from './components/IcpBraun'
 import ProvaFocal from './components/ProvaFocal'
 import Manuais from './components/Manuais'
 import MinhaJornada from './components/MinhaJornada'
@@ -51,8 +51,8 @@ function AppContent() {
       <Manuais />
       <Alvos />
       <AbordagemComercial />
-      <InstagramBraun />
-      <IcpBraun />
+      <InstagramAlexandre />
+      <IcpAlexandre />
       <ProvaFocal />
       <MinhaJornada />
       <Footer />

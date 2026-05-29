@@ -56,7 +56,7 @@ const builderQuestions: BuilderQ[] = [
     id: 'diferencial',
     num: 4,
     titulo: 'Por que te escolhem',
-    pergunta: 'Por que o cliente ideal escolhe a Braun e não alguém mais barato? O que você entrega que é difícil de copiar?',
+    pergunta: 'Por que o cliente ideal escolhe a Alexandre Jardins e não alguém mais barato? O que você entrega que é difícil de copiar?',
     dica: 'Pode ser confiabilidade, apresentação, proposta visual, empresa registrada, follow-up... o que você ouviu de clientes satisfeitos?',
     placeholder: 'Ex: Confiança e pontualidade, clientes chegam por indicação, equipamentos próprios, local de Itatiba — zero deslocamento, proposta no papel antes de começar...',
   },
@@ -352,7 +352,7 @@ function LeadList({ leads, onRemove }: { leads: Lead[]; onRemove: (id: string) =
 
 // ─── Section ──────────────────────────────────────────────────────────────────
 
-export default function IcpBraun() {
+export default function IcpAlexandre() {
   const [leads, setLeads] = useMemberStorage<Lead[]>(ICP_LEADS_KEY, [])
   const [builderRespostas, setBuilderRespostas] = useMemberStorage<BuilderRespostas>(ICP_BUILDER_KEY, {})
 

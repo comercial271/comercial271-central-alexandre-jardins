@@ -142,7 +142,7 @@ export default function HelpButton() {
             <div className="flex items-center justify-between px-6 py-4 border-b border-gray-100 shrink-0">
               <div>
                 <p className="font-bold text-forest-900 text-base">Como usar esta Central</p>
-                <p className="text-gray-400 text-xs mt-0.5">Guia de uso — Braun Paisagismo</p>
+                <p className="text-gray-400 text-xs mt-0.5">Guia de uso — Alexandre Jardins</p>
               </div>
               <button
                 onClick={() => setOpen(false)}

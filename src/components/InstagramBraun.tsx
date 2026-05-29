@@ -114,7 +114,7 @@ function saveUsed(s: Set<string>) {
 
 // ─── Section ──────────────────────────────────────────────────────────────────
 
-export default function InstagramBraun() {
+export default function InstagramAlexandre() {
   const [used, setUsed] = useState<Set<string>>(loadUsed)
   const [activePilar, setActivePilar] = useState<string | null>(null)
   const [openPilar, setOpenPilar] = useState<string | null>(null)
